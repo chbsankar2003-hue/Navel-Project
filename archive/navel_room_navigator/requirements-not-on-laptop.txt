@@ -1,0 +1,9 @@
+The Navel SDK is provided/configured on the robot according to the lab setup.
+
+For the initial project, do not install a guessed `navel` package on your home laptop.
+Use SSH to run these scripts on the robot:
+    ssh navel@ROBOT_IP
+    cd ~/control-studio/scripts/room_navigator
+    python3 01_inspect_sensors.py
+
+The lab PC may be Ubuntu or Windows. It only needs an SSH client for this workflow.
